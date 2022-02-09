@@ -1,4 +1,4 @@
-# Termo-Automatic-Win
+# Termo-Vitoria-Instantanea
 
 Ganhe automaticamente no famoso joguinho de palavras Termo! Por quê? Por nenhum motivo justificável kkkk... mas é legal!
 
