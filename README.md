@@ -1,6 +1,6 @@
-# Termo-Vitoria-Instantanea
+# Termo-Vitoria-Automatica
 
-Ganhe automaticamente no famoso joguinho de palavras Termo! Por quê? Por nenhum motivo justificável kkkk... mas é legal!
+Ganhe instantaneamente e automaticamente no famoso joguinho de palavras Termo! Por quê? Por nenhum motivo justificável kkkk... mas é legal!
 
 ### Como Usar
 
