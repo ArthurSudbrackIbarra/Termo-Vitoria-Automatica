@@ -1,6 +1,6 @@
 function firstGuess() {
     return new Promise(resolve => {
-        for (let letter of "termo") {
+        for (let letter of "lucas") {
             setTimeout(() => {
                 document.getElementById(`kbd_${letter}`).click();
             }, 100);
