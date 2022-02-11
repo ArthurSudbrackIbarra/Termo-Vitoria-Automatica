@@ -1,6 +1,6 @@
 function firstGuess() {
     return new Promise(resolve => {
-        let guessWord = ["lucas", "sofia"][Math.floor(Math.random() * 10) % 2]
+        let guessWord = ["lucas", "sofia"][Math.floor(Math.random() * 2)]
         for (let letter of guessWord) {
             setTimeout(() => {
                 document.getElementById(`kbd_${letter}`).click();
