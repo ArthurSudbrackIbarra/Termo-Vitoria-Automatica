@@ -1,6 +1,7 @@
 function firstGuess() {
     return new Promise(resolve => {
-        for (let letter of "lucas") {
+        let guessWord = ["lucas", "sofia"][Math.floor(Math.random() * 10) % 2]
+        for (let letter of guessWord) {
             setTimeout(() => {
                 document.getElementById(`kbd_${letter}`).click();
             }, 100);
@@ -17,7 +18,7 @@ function firstGuess() {
 
 function secondGuess() {
     const data = JSON.parse(localStorage.getItem("termo"));
-    const solution = data.state.solution;
+    const solution = data.state.solution.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     for (let letter of solution) {
         setTimeout(() => {
             document.getElementById(`kbd_${letter}`).click();
